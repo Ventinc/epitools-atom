@@ -1,0 +1,21 @@
+{
+  "name": "epitools-atom",
+  "main": "./lib/epitools-atom",
+  "version": "0.0.0",
+  "description": "epitools-atom | The essential tool for epitech",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "epitools-atom:toggle"
+  },
+  "repository": "https://github.com/vdnet/epitools-atom",
+  "bugs": {
+      "url": "https://github.com/vdnet/epitools-atom"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

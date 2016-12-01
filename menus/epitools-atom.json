@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle epitools-atom",
+        "command": "epitools-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "epitools-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "epitools-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
