@@ -12,11 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "epitools-atom",
+          "label": "Epitools",
           "submenu": [
             {
               "label": "Toggle",
               "command": "epitools-atom:toggle"
+            },
+            {
+                "label": "Add header",
+                "command": "epitools-atom:header"
             }
           ]
         }

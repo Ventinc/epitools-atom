@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "alt-k": "epitools-atom:toggle"
+    "alt-k": "epitools-atom:toggle",
+    "ctrl-shift-h": "epitools-atom:header"
   }
 }

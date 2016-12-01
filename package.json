@@ -1,12 +1,13 @@
 {
   "name": "epitools-atom",
   "main": "./lib/epitools-atom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "epitools-atom | The essential tool for epitech",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "epitools-atom:toggle"
+    "atom-workspace": "epitools-atom:toggle",
+    "atom-workspace": "epitools-atom:header"
   },
   "repository": "https://github.com/vdnet/epitools-atom",
   "bugs": {

@@ -1,0 +1,29 @@
+{
+    "scopes": {
+        "source.c": {
+            "head": "/*",
+            "body": "**",
+            "tail": "*/"
+        },
+        "source.cpp": {
+            "head": "//",
+            "body": "//",
+            "tail": "//"
+        },
+        "source.makefile": {
+            "head": "##",
+            "body": "##",
+            "tail": "##"
+        },
+        "source.ocaml": {
+            "head": "(*",
+            "body": "**",
+            "tail": "*)"
+        },
+        "default": {
+            "head": "#",
+            "body": "#",
+            "tail": "#"
+        }
+    }
+}
