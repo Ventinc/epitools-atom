@@ -1,6 +1,12 @@
 {
-  "atom-workspace": {
-    "alt-k": "epitools-atom:toggle",
-    "ctrl-shift-h": "epitools-atom:header"
-  }
+    "atom-workspace": {
+        "ctrl-shift-h": "epitools-atom:header"
+    },
+	"atom-text-editor:not([mini])": {
+		"tab": "epitools-atom:indent",
+		"alt-k": "epitools-atom:tab",
+		"enter": "epitools-atom:new_line"
+	},
+    "_comment": {
+    }
 }

@@ -5,8 +5,12 @@
   "description": "epitools-atom | The essential tool for epitech",
   "keywords": [
   ],
+  "_comment": {
+  },
   "activationCommands": {
-    "atom-workspace": "epitools-atom:toggle",
+ 	"atom-text-editor:not([mini])": "epitools-atom:indent",
+	"atom-text-editor:not([mini])": "epitools-atom:tab",
+	"atom-text-editor:not([mini])": "epitools-atom:new_line",
     "atom-workspace": "epitools-atom:header"
   },
   "repository": "https://github.com/vdnet/epitools-atom",

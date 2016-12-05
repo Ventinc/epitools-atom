@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle epitools-atom",
-        "command": "epitools-atom:toggle"
+        "label": "Add Header",
+        "command": "epitools-atom:header"
       }
     ]
   },
@@ -14,10 +14,6 @@
         {
           "label": "Epitools",
           "submenu": [
-            {
-              "label": "Toggle",
-              "command": "epitools-atom:toggle"
-            },
             {
                 "label": "Add header",
                 "command": "epitools-atom:header"
