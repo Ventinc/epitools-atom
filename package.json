@@ -1,26 +1,21 @@
 {
   "name": "epitools-atom",
   "main": "./lib/epitools-atom",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "epitools-atom | The essential tool for epitech",
-  "keywords": [
-  ],
-  "_comment": {
-  },
+  "keywords": [],
+  "_comment": {},
   "activationCommands": {
- 	"atom-text-editor:not([mini])": "epitools-atom:indent",
-	"atom-text-editor:not([mini])": "epitools-atom:tab",
-	"atom-text-editor:not([mini])": "epitools-atom:new_line",
+    "atom-text-editor:not([mini])": "epitools-atom:new_line",
     "atom-workspace": "epitools-atom:header"
   },
   "repository": "https://github.com/vdnet/epitools-atom",
   "bugs": {
-      "url": "https://github.com/vdnet/epitools-atom"
+    "url": "https://github.com/vdnet/epitools-atom"
   },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
