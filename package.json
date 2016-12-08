@@ -1,7 +1,7 @@
 {
   "name": "epitools-atom",
   "main": "./lib/epitools-atom",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "epitools-atom | The essential tool for epitech",
   "keywords": [],
   "_comment": {},
