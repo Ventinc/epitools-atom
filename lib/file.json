@@ -1,0 +1,9 @@
+{
+	"types": {
+		"h": true,
+		"c": true,
+		"makefile": true,
+		"cpp": true,
+		"ocaml": true
+	}
+}
